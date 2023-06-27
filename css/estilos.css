@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Estilos para pantallas pequeñas */
+
+@media screen and (max-width: 773px) {
+    
+    .imagen-logo {
+        width: 200px;
+    }
+
+    .texto-contacto-encabezado {
+        
+        font-size: smaller;
+        
+    }
+
+    .texto-barra-navegacion {
+
+        font-size: 0.7rem;
+    }
+
+}
+
+/* Estilos para pantallas grandes */
+
+@media screen and (min-width: 780px) {
+    
+    .imagen-logo {
+        width: 300px;
+    }
+    
+    .texto-contacto-encabezado {
+        
+        font-size: small;
+        
+    }
+
+    .texto-barra-navegacion {
+
+        font-size: medium;
+    }
+
+}
